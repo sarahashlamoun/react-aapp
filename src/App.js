@@ -6,20 +6,23 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+     <video src="busy.mp4" autoplay loop type="video/mp4"></video>
+        <div class="overlay">
+          <h1> 
+         Rainbow 
+          </h1> 
+<form action="https://www.google.com/" >
+<div id="btn"><span class="noselect">Hello</span><div id="circle"></div>
+  </div>
+   </form>
+
+   </div>
       </header>
     </div>
   );
 }
+
+    
+
 
 export default App;
