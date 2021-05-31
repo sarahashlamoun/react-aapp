@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import REACT from "react";
 import './App.css';
-
+import Busy from "./video.busy.mp4";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-     <video src="busy.mp4" autoplay loop type="video/mp4"></video>
+     <video src={Busy} autoplay loop type="video/mp4"></video>
         <div class="overlay">
           <h1> 
          Rainbow 
