@@ -1,17 +1,19 @@
 import REACT from "react";
 import './App.css';
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
+    
+    <div>
+      <Sidebar/>
      
-          <h1> 
-         Rainbow 
-          </h1> 
+    <myHeader/>     
     </div>
   
   );
 }
+
 
 
 
