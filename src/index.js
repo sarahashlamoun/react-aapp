@@ -6,7 +6,7 @@ class MyHeader extends React.Component {
   render() {
     return (
       <div>
-      <h1 style={{color: "black"}}>Rainbow</h1>
+      <h1>Rainbow</h1>
  
       </div>
     );
